@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}/*fancy border radius*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.flower{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(199,46,149,0.81) 0%, rgba(246,70,84,1) 89.5% );
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 20% 80% 0% 100% / 23% 100% 0% 77%  ;
+    transform-origin: top left;
+}
+@keyframes shru {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
+#f1{
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#f2{
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+#f3{
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#f4{
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+#f5{
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+#f6{
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
