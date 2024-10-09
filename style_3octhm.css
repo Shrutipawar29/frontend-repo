@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}/*fancy border radius*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+}
+.box{
+     
+    height: 350px;
+    width: 350px;
+   
+    position: absolute;
+   top: 170px;
+   left: 145px;
+    align-items: center;
+}
+@keyframes shru {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(380deg);
+    }
+}
+#b1{
+    position: absolute;
+    top: 200px;
+    
+    height: 330px;
+    width: 330px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    background-color: black;
+
+}
+#b2{
+    position: absolute;
+    top: 210px;
+    
+    height: 310px;
+    width: 310px;
+    
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+
+    background-color: white;
+
+}
+#b3{
+    position: absolute;
+    top: 220px;
+    
+    height: 290px;
+    width: 290px;
+    animation-name:  shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+    background-color: black;
+
+}
+#b4{
+    position: absolute;
+    top: 230px;
+   
+    height: 270px;
+    width: 270px;
+   
+
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+    
+    background-color: white;
+}
+#b5{
+    position: absolute;
+    top: 240px;
+    
+    height: 250px;
+    width: 250px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    
+    background-color: black;
+}
+
+#b6{
+    position: absolute;
+    top: 250px;
+    
+    height: 230px;
+    width: 230px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+    background-color: white;
+}
+#b7{
+    position: absolute;
+    top: 260px;
+    
+    height: 210px;
+    width: 210px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+    background-color: black;
+}
+#b8{
+    position: absolute;
+    top: 270px;
+    
+    height: 190px;
+    width: 190px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+    background-color: white;
+}
+#b9{
+    position: absolute;
+    top: 280px;
+    
+    height: 170px;
+    width: 170px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    
+    background-color: black;
+}
+#b10{
+    position: absolute;
+    top: 290px;
+    
+    height: 150px;
+    width: 150px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+    background-color: white;
+}
+#b11{
+    position: absolute;
+    top: 300px;
+    
+    height: 130px;
+    width: 130px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    
+    background-color: black;
+    
+}
+#b12{
+    position: absolute;
+    top: 310px;
+    
+    height: 110px;
+    width: 110px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+    
+    background-color: white;
+}
+#b13{
+    position: absolute;
+    top: 320px;
+    
+    height: 90px;
+    width: 90px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    
+    background-color: black;
+}
+
+#b14{
+    position: absolute;
+    top: 330px;
+    left: 135px;
+    height: 70px;
+    width: 70px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+    
+    background-color: white;
+}
+#b15{
+    position: absolute;
+    top: 340px;
+    
+    height: 70px;
+    width: 70px;
+    animation-name: shru;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+    
+    background-color: white;
+}
