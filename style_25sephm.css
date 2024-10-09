@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.main{
+    height: 600px;
+    width: 600px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+    border: 5%;
+    border-color:black;
+}
+.box-1{
+    min-height:600px;
+    width: 250px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    border-radius: 7%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.box-1 > .s1{
+    position: relative;
+    top: px;
+    right: 0px;
+    
+}
+.s1 > h1{
+    position:absolute;
+    color:antiquewhite;
+}
+.s1 > h2{
+    position:absolute;
+    left: 30px;
+    
+}
+.s1 > p{
+    color:antiquewhite;
+    position: relative;
+}
+.s1 > h2{
+    color:antiquewhite;
+    position: relative;
+}
+.s2{
+    position: relative;
+    top: 120px;
+    right: 20px;
+}
+.s2 > p{
+    position: absolute;
+    left: 35px;
+    color:antiquewhite;
+    font-size: 30px;
+    bottom: 10px;
+    top: -50px;
+}
+.s3{
+    position:absolute;
+}
+.s3 > img{
+    position: relative;
+    height: 280px;
+    top: 220px; 
+}
+.box-2 >{
+    background-color: white                                                     ;
+    position: relative;
+    right:3px;
+    bottom: 200px;
+  
+
+}
+.ca{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    color: antiquewhite;
+}
+button{
+    height: 40px;
+    width: 90px;
+    position: absolute;
+    top: 250px;
+    left: 110px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: brown;
+
+}
+#c1{
+    margin: 20px;
+}
+
+.icon{
+    position: absolute;
+    top: 400px;
+}
+.icon > #i1{
+    padding: 10px;
+    font-size: 40px;
+    left: 10px;
+    
+}
+.link{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    
+}
+.shru{
+    position: absolute;
+    top: 500px;
+    left: 70px;
+}
