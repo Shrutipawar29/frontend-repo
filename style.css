@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+
+
+}
+html
+body {
+    height:100%;
+    width: 100%;
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0px 30px;
+}
+
+
+.menu{
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    color:darkgreen;
+    font-size:20px;
+}
+.signIn,.logIn{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    color: white;
+    text-transform: uppercase;
+
+}
+.logo > img{
+    height: 150px;
+}
