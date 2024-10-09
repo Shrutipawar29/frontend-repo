@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aquamarine;
+    height: 500px;
+    width: 700px;
+    position: relative;
+
+}
+.ball{
+    background-color:red ;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    animation:  move-x 8s linear infinite alternate backwards,move-y 1s ease-out infinite alternate;
+
+}
+@keyframes move-y{
+    from{
+        bottom:0px;
+    }
+    to{
+        bottom: 300px;
+    }
+}
+@keyframes move-x{
+    from{
+transform: translate(0px);
+    }
+    to{
+        transform: translate(620px);
+    }
+}
